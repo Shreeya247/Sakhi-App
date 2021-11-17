@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#009688"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:text="सखी-तुमच्या हक्काची मैत्रीण"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="मासिक पाळी"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="मासिक पाळीच्या चक्राच्या पहिल्या दिवशी रक्त वाहण्यास सुरुवात होते, ज्याला पहिला दिवस म्हणतात. हे चक्र पुढील मासिक पाळीच्या जरा आधी थांबते. हे ऋतुस्त्राव चक्र साधारणपणे २५ ते ३६ दिवसांचे असते. फक्त १० ते १५ टक्के स्त्रियांमध्ये मासिक पाळीचे हे चक्र अचूक २८ दिवसांचे असते. वयात आल्यानंतरच्या लगेचच्या काळात तसेच पाळी थांबण्याचा वेळी हा फरक ठळकपणे दिसून येतो आणि दोन पाळ्यांमधील कालावधी देखील अधिकतम असतो. रक्तस्राव ३ ते ७ दिवस किंवा सरासरी ५ दिवस सुरु राहतो. या दरम्यान सुमारे ०.५ ते २.५ औंस रक्त जाते. एका सॅनिटरी नॅपकिनमध्ये – ज्याला टॅंपन असे ही म्हणतात – त्याच्या प्रकारानुसार १ औंस रक्त शोषले जाऊ शकते. मासिक पाळी मध्ये वाहणारे रक्त नेहमीच्या जखमेतून येणार्‍या रक्तापेक्षा वेगळे असते व स्त्राव भरपूर असल्याशिवाय त्याची सहजपणे गांठ तयार (क्लॉटिंग) होत नाही.\nह्या चक्रांमध्ये ३ टप्पे असतात -\n1.\tफॉलिक्युलर (अंडे बाहेर सोडले जाण्याआधी)\n2.\tओव्ह्यूलेटरी (अंडे बाहेर सोडले जाणे)\n3.\tल्युटिल (अंडे बाहेर सोडल्यानंतर)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="पुढील पानांवर जाण्यासाठी"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView2"
+        app:layout_constraintVertical_bias="0.439" />
+</android.support.constraint.ConstraintLayout>
